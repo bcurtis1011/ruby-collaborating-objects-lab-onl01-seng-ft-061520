@@ -22,7 +22,6 @@ class Song
   
   def artist_name=(name)
     
-    enmd
-    
+  end
   
 end
