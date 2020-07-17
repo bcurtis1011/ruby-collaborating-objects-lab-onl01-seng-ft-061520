@@ -24,6 +24,6 @@ class Artist
   end
   
   def self.find(name)
-    self.all.find {|x|}
+    self.all.find {|x| x.name = name}
   end
 end
