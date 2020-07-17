@@ -24,6 +24,6 @@ class Artist
   end
   
   def self.find(name)
-    
+    self.find
   end
 end
