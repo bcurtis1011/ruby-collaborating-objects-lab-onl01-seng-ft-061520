@@ -26,4 +26,8 @@ class Artist
   def self.find(name)
     self.all.find {|x| x.name = name}
   end
+  
+  def print_songs
+    
+  end
 end
